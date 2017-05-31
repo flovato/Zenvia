@@ -6,10 +6,9 @@ public class Zenvia {
 
 	
 	public static void main(String[] args) {
-		Integer dec = 1544;
-	
-		NumerosRomanos n = new NumerosRomanos(dec);
+		Integer decValue = 4000;
+		String romanNumber = NumerosRomanos.toString(decValue);
 		
-		System.out.print(n.toString());
+		System.out.print(romanNumber);
 	}
 }
