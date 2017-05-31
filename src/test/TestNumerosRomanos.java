@@ -1,7 +1,9 @@
-package zenviatest;
+package test;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import zenviatest.NumerosRomanos;
 
 public class TestNumerosRomanos {
 
